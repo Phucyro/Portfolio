@@ -17,7 +17,7 @@ const Hero = () => {
               I am an ardent explorer of the digital cosmos, perpetually enraptured by the symphony of technology.
             </p>
             <div className="flex justify-center items-start">
-              <img src={picture} alt="picture" className="w-full max-w-2/5 max-h-[45vh] object-contain" />
+              <img src={picture} alt="picture" className="w-full max-w-2/5 max-h-[55vh] object-contain mt-8" />
             </div>
         </div>
       </div>
