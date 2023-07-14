@@ -1,12 +1,10 @@
 import { useState } from "react";
-import { Tilt } from "react-tilt";
 import { motion, useSpring, useMotionValue } from "framer-motion";
 import { distance } from "@popmotion/popcorn";
-import { render } from "react-dom";
 
 import { styles } from "../styles";
 import { technologies } from "../constants";
-import { fadeIn, zoomIn, textVariant } from "../utils/motion";
+import { zoomIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
 const grid = [
