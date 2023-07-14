@@ -323,11 +323,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Rasberry Pi",
+          name: "PSoC-5LP",
           color: "pink-text-gradient",
         },
       ],
       image: elt,
+      source_code_link: "https://github.com/Phucyro/DigitalElectronics",
     },
     {
       name: "Automotive Manufacturing Support",
