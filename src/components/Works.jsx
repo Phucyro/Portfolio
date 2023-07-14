@@ -27,19 +27,20 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
             className="w-full h-full object-cover rounded-2x1"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-
+          {source_code_link && 
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
             </div>
-          </div>
+          }
         </div>
 
         <div className="mt-5">
@@ -74,7 +75,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center"
         >
-          The projects detailed here serve as practical demonstrations of my skillset and experience. Each undertaking is accompanied by a concise description, along with links to the relevant code repositories and live demonstrations. These projects illustrate my proficiency in tackling intricate challenges, employing diverse technologies, and managing projects efficiently.
+          The projects detailed here serve as practical demonstrations of my skillset and experience. Each undertaking is accompanied by a concise description. These projects illustrate my proficiency in tackling intricate challenges, employing diverse technologies, and managing projects efficiently.
         </motion.p>
     </div>
 

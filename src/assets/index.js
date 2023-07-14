@@ -39,6 +39,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import picture from "./picture.jpg";
+import imagerecognition from "./imagerecognition.png";
+import pawnhub from "./pawnhub.png";
+import newsapp from "./newsapp.png";
+import elt from "./elt.png";
+import dieteren from "./dieteren.png";
 
 export {
   logo,
@@ -79,4 +84,9 @@ export {
   azure,
   hackthebox,
   kaggle,
+  imagerecognition,
+  pawnhub,
+  newsapp,
+  elt,
+  dieteren,
 };

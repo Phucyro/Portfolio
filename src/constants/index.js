@@ -16,9 +16,6 @@ import {
     solvay,
     shopify,
     ulb,
-    carrent,
-    jobit,
-    tripguide,
     python,
     c,
     cplus,
@@ -32,6 +29,12 @@ import {
     azure,
     hackthebox,
     kaggle,
+    imagerecognition,
+    pawnhub,
+    newsapp,
+    elt,
+    dieteren,
+    logo,
   } from "../assets";
   
   export const navLinks = [
@@ -216,67 +219,164 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI-Based Number Recognizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An AI neural network capable of identifying numbers 1 to 9 from a picture, given an array of the picture's grayscale values.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "AI",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Machine Learning",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: imagerecognition,
+      source_code_link: "",
     },
     {
-      name: "Job IT",
+      name: "Pawn Hub: An Online Chess Experience",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "C++-based chess game offering the traditional aspects of Chess while also offering real-time play and 'Pawns Only' mode. ",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Network",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Game Development",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: pawnhub,
+      source_code_link: "https://github.com/Phucyro/PawnHub",
     },
     {
-      name: "Trip Guide",
+      name: "FeedBuzz: News Aggregator Java App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Java application that aggregates daily news from multiple websites using Flux, offering a consolidated view of daily headlines.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Full Stack",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "RSS flux",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: newsapp,
+      source_code_link: "https://github.com/Phucyro/FeedBuzz",
+    },
+    {
+      name: "Flem: smart planner for lazy people",
+      description:
+        "AI-powered planning application designed with the philosophy of 'less effort, more efficiency'. Harnessing the power of Figma for UI/UX design, the project provides a comprehensive solution for smart planning on both web and mobile platforms, serving as a full-stack development showcase",
+      tags: [
+        {
+          name: "Full Stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: flem,
+    },
+    {
+      name: "SOS Electronics Programming",
+      description:
+        "Designed an emergency locator transmitter capable of emitting sounds, detecting temperature and luminosity, and sending/receiving SOS messages.",
+      tags: [
+        {
+          name: "C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Electronics",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Rasberry Pi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: elt,
+    },
+    {
+      name: "Automotive Manufacturing Support",
+      description:
+        "Contributed to the maintenance and enhancement of a leading car manufacturer's Salesforce systems, ensuring efficiency and reliability.",
+      tags: [
+        {
+          name: "Salesforce",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Apex",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Maintenance & Upgrade",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dieteren,
+      source_code_link: "https://www.dieteren.be/fr/",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "Developed a personal portfolio website using ReactJS and Tailwind CSS to showcase projects and professional experience.",
+      tags: [
+        {
+          name: "Full Stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ReactJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: logo,
+    },
+    {
+      name: "Shopify E-commerce Store",
+      description:
+        "Developed a comprehensive e-commerce store using Shopify, complete with inventory management and secure checkout functionality.",
+      tags: [
+        {
+          name: "Shopify",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "E-commerce",
+          color: "green-text-gradient",
+        },
+      ],
+      image: shopify,
     },
   ];
   
