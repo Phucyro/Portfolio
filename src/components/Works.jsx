@@ -62,22 +62,21 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
 
 const Works = () => {
   return (
-    <>
-      <p className={`${styles.sectionSubText} text-center`}>
-        My work
-      </p>
-      <h2 className={`${styles.sectionHeadText} text-center`}>
-        Projects
-      </h2>
+    <> 
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>My work</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Projects</h2>
+      </motion.div>
+      
 
-      <div className="w-full flex justify-center items-center mx-auto">
+    <div className="w-full flex justify-center items-center mx-auto text-center">
         <motion.p
           variants={fadeIn("","",0.1,1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center"
         >
           The projects detailed here serve as practical demonstrations of my skillset and experience. Each undertaking is accompanied by a concise description, along with links to the relevant code repositories and live demonstrations. These projects illustrate my proficiency in tackling intricate challenges, employing diverse technologies, and managing projects efficiently.
         </motion.p>
-      </div>
+    </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project,index)=>(

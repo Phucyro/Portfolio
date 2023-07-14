@@ -4,25 +4,34 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
+    pwc,
+    flem,
+    solvay,
     shopify,
+    ulb,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    python,
+    c,
+    cplus,
+    java,
+    sql,
+    pandas,
+    tensorflow,
+    linux,
+    salesforce,
+    mulesoft,
+    azure,
+    hackthebox,
+    kaggle,
   } from "../assets";
   
   export const navLinks = [
@@ -42,24 +51,84 @@ import {
   
   const services = [
     {
-      title: "Developer",
+      title: "AI",
       icon: web,
     },
     {
-      title: "AI",
+      title: "Cloud",
       icon: mobile,
     },
     {
-      title: "Cloud",
+      title: "Cybersecurity",
       icon: backend,
     },
     {
-      title: "Cybersecurity",
+      title: "Data Science",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "C++",
+      icon: cplus,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    },
+    {
+      name: "Kaggle",
+      icon: kaggle,
+    },
+    {
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "TensorFlow",
+      icon: tensorflow,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "Azure",
+      icon: azure,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+    {
+      name: "HackTheBox",
+      icon: hackthebox,
+    },
+    {
+      name: "Salesforce",
+      icon: salesforce,
+    },
+    {
+      name: "Mulesoft",
+      icon: mulesoft,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,126 +142,75 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
+      name: "Tailwindcss",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
     },
     {
       name: "figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Shopify",
+      icon: shopify,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Business Engineering",
+      company_name: "Solvay Business School, BRUSSELS(BE)",
+      icon: solvay,
+      iconBg: "#FFFFFF",
+      date: "September 2013 - September 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Studies with a focus on modern business practices, financial analysis, and strategic decision-making.",
+        "Exploration of both microeconomics and macroeconomics, acquiring a robust comprehension of fundamental economic concepts and their real-world applications.",
+        "Developed strong analytical skills through advanced courses in statistics and data analysis.",
+        "Conducted projects, demonstrating strong research abilities, critical thinking and problem-solving skills.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Computer Science (Distinction)",
+      company_name: "ULB, BRUSSELS(BE)",
+      icon: ulb,
+      iconBg: "#FFFFFF",
+      date: "September 2016 - September 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a strong foundation in computer science theory and practice, including data structures, algorithms, and software engineering principles.",
+        "Gained practical experience through individual and group projects using current technologies.",
+        "Acquired strong problem-solving abilities and critical thinking skills through complex coding challenges and debugging tasks.",
+        "Sparked a lifelong passion for technology, inspiring me to continuously explore, learn, and master emerging tech trends.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Full Stack Developer",
+      company_name: "Saint-Tran, BRUSSELS(BE)",
+      icon: flem,
+      iconBg: "#FFFFFF",
+      date: "September 2020 - September 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Supervised digitalization of small and large corporations",
+        "Prepared, planned, forecast IT meetings",
+        "Oversaw UX/UI design and backend development",
+        "Translated and communicated coding languages into clear presentations"
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Technology Consultant",
+      company_name: "PwC, BRUSSELS(BE)",
+      icon: pwc,
+      iconBg: "#FFFFFF",
+      date: "September 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated closely with a major automobile manufacturer to gain a holistic understanding of their process from Sales to Service to Marketing, contributed to the optimization of their Salesforce system, and assisted in the implementation of innovative features.",
+        "Enhanced knowledge in key areas of interest, including AI, Data Science, Cloud, and Cybersecurity through consistent participation in professional development and training.",
+        "Continuous improvement, by seeking feedback from experienced colleagues, addressing areas for personal development, and actively contributing constructive feedback.",
+        "Expanded professional network, refined teamwork skills, and improved personal organization through daily operational activities and team interactions.",
       ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -262,4 +280,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
